@@ -1,0 +1,23 @@
+.avatar {
+    display:block;
+    border:1px solid #000;
+    border-radius:50%;
+    box-shadow: 4px 4px 6px #000;
+    margin-top: 10px;
+}
+.avatar:hover {
+    position: relative;
+    right: -100px;
+}
+.introduce {
+    display: block;
+    margin: 10px 0;
+    color: #fff;
+    background: linear-gradient(to left,#fff,#000);
+    font-size: 24px;
+}
+.introduce:hover {
+    color: transparent;
+    transition: 1.5s;
+    transform:scaleY(1.1);
+}

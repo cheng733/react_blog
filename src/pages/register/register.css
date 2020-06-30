@@ -1,0 +1,31 @@
+.registerHeader {
+    height: 50px;
+    background-color: #3f51b5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+}
+.registerContent {
+    border: 1px solid #000;
+    margin: 100px auto;
+    text-align: center;
+    box-shadow: 2px 2px 8px #3f51b5;
+    color: #2b9da3;
+    width: 323px;
+    height: 200px;
+}
+h1 {
+    font-family: serif;
+    font-size: 2em;
+    text-shadow: 1px 1px 2px #3f51b5;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form input {
+    margin: 4px 0;
+}
